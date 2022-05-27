@@ -1,0 +1,192 @@
+:root {
+    --fonte-principal: "exo";
+    --cor-de-fundo: #FFFFFF;
+    --cor-botao: #0c7400;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: #1f6836;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("img/fachada.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    background-color: #1f6836;
+    border-radius: 7px;
+    padding: 1em;
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.container__botao:hover {
+    color: #1f6836;
+    transform: scale(1.1);
+    color: #FFFFFF;
+}
+
+.container__botao2 {
+    background-color: transparent;
+    border: #b99820 solid 2px;
+    color: #b99820;
+}
+
+.container__botao2:hover {
+    color: #b99820;
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+    border: #1f6836 solid 3px;
+    border-radius: 10px;
+    padding: 7px;
+    opacity: 1;
+	transition: 400ms;
+	box-shadow: 5px 5px 5px #959695;
+}
+
+.container__titulo:hover {
+    transform: scale(1.1);
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__imagem:hover {
+    transform: scale(1.1);
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.secundario__imagem {
+    width: 80%;
+    border: #959695 solid 3px;
+    padding: 5px;
+    opacity: 1;
+	transition: 400ms;
+	box-shadow: 5px 5px 5px #959695;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: #959695;
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: #959695;
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
+}
+
+.hoteis__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 1em;
+    margin: 1em;
+}
+
+.hoteis {
+    text-align: center;
+}
+
+.hoteis__titulo {
+    font-size: 48px;
+    color: #959695;
+    font-weight: 700;
+}
+
+.lista__item {
+    font-size: 22px;
+    color: #959695;
+    font-weight: 700;
+}
+
+.rodape__texto {
+    font-size: 14px;
+    font-weight: 400;
+    color: #959695;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.rodape {
+    text-align: center;
+    margin: 0 3em;
+    margin-bottom: 5em;
+}
+
+.rodape__logo {
+    margin-bottom: 2em;
+    margin-top: 5em;
+}
+
+.rodape__logo:hover {
+    transform: scale(1.1);
+}
+
+.lista__link {
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+
+.lista__link a:hover {
+    color: var(--cor-botao);
+}
+
+a {
+    text-decoration: none;
+    color: #959695;
+}
+
+.rodape__texto2 {
+    margin-top: 2em;
+    font-size: 14px;
+    font-weight: 400;
+    color: #959695;
+}
